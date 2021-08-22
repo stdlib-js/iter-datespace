@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/iter-datespace",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Create an iterator which returns evenly spaced dates over a specified interval.",
   "license": "Apache-2.0",
   "author": {
