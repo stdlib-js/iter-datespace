@@ -20,7 +20,7 @@ limitations under the License.
 
 # iterDatespace
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Create an iterator which returns evenly spaced dates over a specified interval.
 
@@ -224,11 +224,11 @@ while ( true ) {
 
 ## See Also
 
--   [`@stdlib/array/from-iterator`][@stdlib/array/from-iterator]: create (or fill) an array from an iterator.
--   [`@stdlib/iter/incrspace`][@stdlib/iter/incrspace]: create an iterator which returns evenly spaced numbers according to a specified increment.
--   [`@stdlib/iter/linspace`][@stdlib/iter/linspace]: create an iterator which returns evenly spaced numbers over a specified interval.
--   [`@stdlib/iter/logspace`][@stdlib/iter/logspace]: create an iterator which returns evenly spaced numbers on a log scale.
--   [`@stdlib/iter/step`][@stdlib/iter/step]: create an iterator which returns a sequence of numbers according to a specified increment.
+-   <span class="package-name">[`@stdlib/array/from-iterator`][@stdlib/array/from-iterator]</span><span class="delimiter">: </span><span class="description">create (or fill) an array from an iterator.</span>
+-   <span class="package-name">[`@stdlib/iter/incrspace`][@stdlib/iter/incrspace]</span><span class="delimiter">: </span><span class="description">create an iterator which returns evenly spaced numbers according to a specified increment.</span>
+-   <span class="package-name">[`@stdlib/iter/linspace`][@stdlib/iter/linspace]</span><span class="delimiter">: </span><span class="description">create an iterator which returns evenly spaced numbers over a specified interval.</span>
+-   <span class="package-name">[`@stdlib/iter/logspace`][@stdlib/iter/logspace]</span><span class="delimiter">: </span><span class="description">create an iterator which returns evenly spaced numbers on a log scale.</span>
+-   <span class="package-name">[`@stdlib/iter/step`][@stdlib/iter/step]</span><span class="delimiter">: </span><span class="description">create an iterator which returns a sequence of numbers according to a specified increment.</span>
 
 </section>
 
@@ -279,8 +279,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/iter-datespace/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/iter-datespace?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/iter-datespace.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/iter-datespace/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
