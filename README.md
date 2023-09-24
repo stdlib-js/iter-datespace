@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterDatespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-datespace@deno/mod.js';
+import iterDatespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-datespace@v0.1.0-deno/mod.js';
 ```
 
 #### iterDatespace( start, stop\[, N]\[, options] )
@@ -189,7 +189,7 @@ v = it.next().value.getTime();
 ```javascript
 import MILLISECONDS_IN_DAY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-milliseconds-in-day@deno/mod.js';
 import HOURS_IN_DAY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-hours-in-day@deno/mod.js';
-import iterDatespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-datespace@deno/mod.js';
+import iterDatespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-datespace@v0.1.0-deno/mod.js';
 
 // Create an iterator which returns a Date object for each hour in the next 24 hours:
 var start = new Date();
