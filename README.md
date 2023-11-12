@@ -45,14 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/iter-datespace
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import iterDatespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-datespace@esm/index.mjs';
+var iterDatespace = require( '@stdlib/iter-datespace' );
 ```
 
 #### iterDatespace( start, stop\[, N]\[, options] )
@@ -60,7 +76,7 @@ import iterDatespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-datespace@
 Returns an iterator which returns evenly spaced `Date` objects over a specified interval.
 
 ```javascript
-import MILLISECONDS_IN_DAY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-milliseconds-in-day@esm/index.mjs';
+var MILLISECONDS_IN_DAY = require( '@stdlib/constants-time-milliseconds-in-day' );
 
 var start = ( new Date() ).getTime();
 var it = iterDatespace( start, start+MILLISECONDS_IN_DAY );
@@ -90,7 +106,7 @@ The function accepts the following `options`:
 By default, the iterator returns `100` values. To return an alternative number of values over the specified interval, provide an `N` argument.
 
 ```javascript
-import MILLISECONDS_IN_DAY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-milliseconds-in-day@esm/index.mjs';
+var MILLISECONDS_IN_DAY = require( '@stdlib/constants-time-milliseconds-in-day' );
 
 var start = ( new Date() ).getTime();
 var it = iterDatespace( start, start+MILLISECONDS_IN_DAY, 3 );
@@ -186,15 +202,10 @@ v = it.next().value.getTime();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import MILLISECONDS_IN_DAY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-milliseconds-in-day@esm/index.mjs';
-import HOURS_IN_DAY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-hours-in-day@esm/index.mjs';
-import iterDatespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-datespace@esm/index.mjs';
+```javascript
+var MILLISECONDS_IN_DAY = require( '@stdlib/constants-time-milliseconds-in-day' );
+var HOURS_IN_DAY = require( '@stdlib/constants-time-hours-in-day' );
+var iterDatespace = require( '@stdlib/iter-datespace' );
 
 // Create an iterator which returns a Date object for each hour in the next 24 hours:
 var start = new Date();
@@ -210,10 +221,6 @@ while ( true ) {
     }
     console.log( v.value );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -255,7 +262,7 @@ while ( true ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -317,15 +324,15 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/array/from-iterator]: https://github.com/stdlib-js/array-from-iterator/tree/esm
+[@stdlib/array/from-iterator]: https://github.com/stdlib-js/array-from-iterator
 
-[@stdlib/iter/incrspace]: https://github.com/stdlib-js/iter-incrspace/tree/esm
+[@stdlib/iter/incrspace]: https://github.com/stdlib-js/iter-incrspace
 
-[@stdlib/iter/linspace]: https://github.com/stdlib-js/iter-linspace/tree/esm
+[@stdlib/iter/linspace]: https://github.com/stdlib-js/iter-linspace
 
-[@stdlib/iter/logspace]: https://github.com/stdlib-js/iter-logspace/tree/esm
+[@stdlib/iter/logspace]: https://github.com/stdlib-js/iter-logspace
 
-[@stdlib/iter/step]: https://github.com/stdlib-js/iter-step/tree/esm
+[@stdlib/iter/step]: https://github.com/stdlib-js/iter-step
 
 <!-- </related-links> -->
 
