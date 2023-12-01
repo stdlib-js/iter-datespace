@@ -53,7 +53,7 @@
   },
   "devDependencies": {
     "@stdlib/assert-is-iterator-like": "^0.1.1",
-    "@stdlib/bench": "^0.2.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/constants-time-hours-in-day": "^0.2.1",
     "@stdlib/constants-time-milliseconds-in-day": "^0.2.1",
     "proxyquire": "^2.0.0",
