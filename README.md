@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import iterDatespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-datespace@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/iter-datespace/tags). For example,
+
+```javascript
 import iterDatespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-datespace@v0.2.3-deno/mod.js';
 ```
 
@@ -189,7 +194,7 @@ v = it.next().value.getTime();
 ```javascript
 import MILLISECONDS_IN_DAY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-milliseconds-in-day@deno/mod.js';
 import HOURS_IN_DAY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-hours-in-day@deno/mod.js';
-import iterDatespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-datespace@v0.2.3-deno/mod.js';
+import iterDatespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-datespace@deno/mod.js';
 
 // Create an iterator which returns a Date object for each hour in the next 24 hours:
 var start = new Date();
