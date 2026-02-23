@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-contains": "^0.3.0",
+    "@stdlib/assert-contains": "^0.3.1",
     "@stdlib/assert-has-own-property": "^0.2.3",
     "@stdlib/assert-is-date-object": "^0.2.3",
     "@stdlib/assert-is-nonnegative-integer": "^0.2.3",
